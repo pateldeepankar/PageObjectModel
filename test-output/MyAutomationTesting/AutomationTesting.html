@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  AutomationTesting</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AutomationTesting</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 02 09:05:43 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>285 seconds (285854 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.at.qa.testcases.AtHomePageTest.verifyvissiteLogoTest()'><b>verifyvissiteLogoTest</b><br>Test class: com.at.qa.testcases.AtHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtHomePageTest@f0da945</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtHomePageTest.verifyvissearchBoxTest()'><b>verifyvissearchBoxTest</b><br>Test class: com.at.qa.testcases.AtHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtHomePageTest@f0da945</td></tr>
+<tr>
+<td title='com.at.qa.testcases.DemoSiteTest.validateNewRegister()'><b>validateNewRegister</b><br>Test class: com.at.qa.testcases.DemoSiteTest<br>Parameters: Amar, Yadaw, wert@gmail.com, 4.5746445E7</td>
+<td></td>
+<td>8</td>
+<td>com.at.qa.testcases.DemoSiteTest@771a660</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtLoginPageTest.LoginTest()'><b>LoginTest</b><br>Test class: com.at.qa.testcases.AtLoginPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.at.qa.testcases.AtLoginPageTest@73e9cf30</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtLoginPageTest.auImageTest()'><b>auImageTest</b><br>Test class: com.at.qa.testcases.AtLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtLoginPageTest@73e9cf30</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtLoginPageTest.loginKeyTest()'><b>loginKeyTest</b><br>Test class: com.at.qa.testcases.AtLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtLoginPageTest@73e9cf30</td></tr>
+<tr>
+<td title='com.at.qa.testcases.DemoSiteTest.validateNewRegister()'><b>validateNewRegister</b><br>Test class: com.at.qa.testcases.DemoSiteTest<br>Parameters: Ajit, Singh, as@gmail.com, 4.7848145E7</td>
+<td></td>
+<td>8</td>
+<td>com.at.qa.testcases.DemoSiteTest@771a660</td></tr>
+<tr>
+<td title='com.at.qa.testcases.DemoSiteTest.verifyregKeyTest()'><b>verifyregKeyTest</b><br>Test class: com.at.qa.testcases.DemoSiteTest</td>
+<td></td>
+<td>9</td>
+<td>com.at.qa.testcases.DemoSiteTest@771a660</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtHomePageTest.verifyvissubscrbBtnTest()'><b>verifyvissubscrbBtnTest</b><br>Test class: com.at.qa.testcases.AtHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtHomePageTest@f0da945</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtLoginPageTest.visibleTestCasesTest()'><b>visibleTestCasesTest</b><br>Test class: com.at.qa.testcases.AtLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtLoginPageTest@73e9cf30</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtHomePageTest.verifyvisImageTest()'><b>verifyvisImageTest</b><br>Test class: com.at.qa.testcases.AtHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtHomePageTest@f0da945</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtHomePageTest.verifyclickOndemoSiteTest()'><b>verifyclickOndemoSiteTest</b><br>Test class: com.at.qa.testcases.AtHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtHomePageTest@f0da945</td></tr>
+<tr>
+<td title='com.at.qa.testcases.DemoSiteTest.validateNewRegister()'><b>validateNewRegister</b><br>Test class: com.at.qa.testcases.DemoSiteTest<br>Parameters: Anil, Kumar, ak@gmail.com, 4.5471155E7</td>
+<td></td>
+<td>4</td>
+<td>com.at.qa.testcases.DemoSiteTest@771a660</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtHomePageTest.verifyAtHomePageTitleTest()'><b>verifyAtHomePageTitleTest</b><br>Test class: com.at.qa.testcases.AtHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtHomePageTest@f0da945</td></tr>
+<tr>
+<td title='com.at.qa.testcases.DemoSiteTest.verifyrefBtnTest()'><b>verifyrefBtnTest</b><br>Test class: com.at.qa.testcases.DemoSiteTest</td>
+<td></td>
+<td>4</td>
+<td>com.at.qa.testcases.DemoSiteTest@771a660</td></tr>
+<tr>
+<td title='com.at.qa.testcases.DemoSiteTest.verifysbBtnTest()'><b>verifysbBtnTest</b><br>Test class: com.at.qa.testcases.DemoSiteTest</td>
+<td></td>
+<td>7</td>
+<td>com.at.qa.testcases.DemoSiteTest@771a660</td></tr>
+<tr>
+<td title='com.at.qa.testcases.DemoSiteTest.validateNewRegister()'><b>validateNewRegister</b><br>Test class: com.at.qa.testcases.DemoSiteTest<br>Parameters: Amit, Kumar, ak@gmail.com, 4.7551475E7</td>
+<td></td>
+<td>7</td>
+<td>com.at.qa.testcases.DemoSiteTest@771a660</td></tr>
+<tr>
+<td title='com.at.qa.testcases.AtHomePageTest.verifyvislogOutKeyTest()'><b>verifyvislogOutKeyTest</b><br>Test class: com.at.qa.testcases.AtHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.at.qa.testcases.AtHomePageTest@f0da945</td></tr>
+</table><p>
+</body>
+</html>
